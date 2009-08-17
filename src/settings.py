@@ -63,7 +63,8 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
 )
 
-ROOT_URLCONF = 'isewars.urls'
+ROOT_URLCONF = 'src.urls'
+#ROOT_URLCONF = 'isewars.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
